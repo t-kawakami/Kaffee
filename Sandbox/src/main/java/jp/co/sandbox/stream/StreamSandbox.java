@@ -42,5 +42,8 @@ public class StreamSandbox {
             return name.substring(index + 1, index + 2);
         }, Collectors.counting()));
         System.out.println(dictionaryCount);
+
+        dictionary.entrySet().stream().forEach(System.out::println);
+        dictionaryCount.entrySet().stream().forEach(System.out::println);
     }
 }
