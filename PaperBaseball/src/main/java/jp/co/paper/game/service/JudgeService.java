@@ -10,6 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+import static jp.co.paper.game.constants.BattingResultConst.*;
+
 /**
  * Created by kawakami_note on 2015/08/12.
  */
@@ -39,6 +41,7 @@ public class JudgeService {
 
     /**
      * 打撃入力を登録する
+     *
      * @param batting
      */
     public void insertBatting(Batting batting) {
@@ -47,6 +50,7 @@ public class JudgeService {
 
     /**
      * ピッチング入力を登録する
+     *
      * @param pitching
      */
     public void insertPitching(Pitching pitching) {
@@ -55,6 +59,7 @@ public class JudgeService {
 
     /**
      * バッティング結果を判定する。
+     *
      * @param gameId
      * @param ballNum
      * @return
@@ -167,6 +172,7 @@ public class JudgeService {
 
     /**
      * 投球内容からヒットコースルールを生成する
+     *
      * @param pitching 投球内容
      * @return ヒットコースルール
      */
@@ -177,6 +183,7 @@ public class JudgeService {
 
     /**
      * 打撃結果を返す
+     *
      * @param batting
      * @param pitching
      * @param courseRuleList
