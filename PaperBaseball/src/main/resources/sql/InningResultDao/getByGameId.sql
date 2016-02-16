@@ -1,0 +1,6 @@
+SELECT
+    *
+FROM
+    INNING_RESULT
+WHERE
+    GAME_ID = ?

@@ -1,0 +1,4 @@
+DELETE FROM
+    PITCHING
+WHERE
+    GAME_ID = ?

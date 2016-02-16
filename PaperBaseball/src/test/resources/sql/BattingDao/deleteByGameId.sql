@@ -1,0 +1,4 @@
+DELETE FROM
+    BATTING
+WHERE
+    GAME_ID = ?

@@ -1,0 +1,6 @@
+SELECT
+    *
+FROM
+    BALL_KIND_NAME
+WHERE
+    BALL_KIND_ID = ?

@@ -1,0 +1,4 @@
+DELETE FROM
+    BASE_COUNT
+WHERE
+    GAME_ID = ?

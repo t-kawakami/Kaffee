@@ -1,0 +1,7 @@
+SELECT
+    *
+FROM
+    BATTING_RESULT
+WHERE
+    GAME_ID = ?
+    AND BALL_NUM = ?
