@@ -1,16 +1,16 @@
 spring:
-    datasource:
-        url: jdbc:mysql://localhost:3306/baseball?useUnicode=true&characterEncoding=UTF8
-        driverClassName: com.mysql.jdbc.Driver
-        username: root
-        password:
+  datasource:
+    url: jdbc:mysql://localhost:3306/baseball?useUnicode=true&characterEncoding=UTF8
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password:
 
 ball:
-    kind:
-        id:
-            straight: 1
-            slider: 2
-            curve: 3
-            split: 4
-            sinker: 5
-            shoot: 6
+  kind:
+    id:
+      straight: 1
+      slider: 2
+      curve: 3
+      split: 4
+      sinker: 5
+      shoot: 6
